@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-header: #B1DDA5;
+    --color1: #242424;
+    --color2: #3BAB1E;
+    --color3: #FDFDFD; 
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color3);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: var(--color-header);
+    margin: auto;
+}
+
+.nav {
+   width: 97vw;
+   height: 100px;
+}
+
+ul {
+    position: relative;
+    right: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.volta {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.voltar-f1 {
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 50%;
+}
+
+.voltar-f1:hover {
+    background-color: #24242448;
+}
+
+.gostei {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.plato {
+    position: absolute;
+    top: -50px;
+}
+
+.container2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 24px;
+    color: var(--color1);
+}
+
+ul {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+ul li  {
+    display: flex;
+    text-align: center;
+}
+
+.descricao {
+    display: inline-block;
+    color: var(--color1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    margin: auto;
+    padding-bottom: 8px;
+    
+}
+
+.info {
+    display: inline-block;
+    margin: auto;
+    color: var(--color1);
+}
+
+#tabela {
+    position: relative;
+}
+
+.peso {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.dr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 5px;
+    color: var(--color1);
+}
+
+.rect0 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.rect1 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.rect2 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.rect3 {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.rect4 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+.rect5 {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+
+.rect6 {
+    position: absolute;
+    top: 75px;
+    left: 0;
+}
+
+.rect7 {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+
+.rect8 {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+
+.rect9 {
+    position: absolute;
+    top: 75px;
+    left: 150px;
+}
+
+.rect10 {
+    position: absolute;
+    top: 75px;
+    left: 200px;
+}
+
+.rect11 {
+    position: absolute;
+    top: 75px;
+    left: 250px;
+}
+
+.rect12 {
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
+.rect13 {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.rect14 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.rect15 {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+.rect16 {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+.rect17 {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
+
+.rect18 {
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+
+.rect19 {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+
+.rect20 {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+.rect21 {
+    position: absolute;
+    top: 160px;
+    left: 150px;
+}
+
+.rect22 {
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+
+.rect23 {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+}
+
+.detalhes {
+    padding-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.hider {
+    position: absolute;
+    display: none;
+    background-color: var(--color3);
+    color: var(--color1);
+    border: 1px solid var(--color1);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.464);
+    top: -300px;
+    left: 0;
+    width: 300px;   
+    margin: auto;
+    margin-top:10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover > .hider {
+    display: block;
+}
+
+button:hover > p {
+    display: none;
+}
+
+.m-info {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.s-lin {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.s-lin2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.espaco {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.prot-inf {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.slid {
+    padding-top: 10px;
+}
